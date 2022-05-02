@@ -4,4 +4,8 @@
   <img width="500" height="500" src="https://github.com/SagerKudrick/Matplot_PSO/blob/main/animatedswarm.gif">
 </p>
 
-Animated matplot particle swarm optimization algorithm
+Changed from generating a slideshow .gif with the generations to a live 22 frame animation
+
+Original from https://machinelearningmastery.com/a-gentle-introduction-to-particle-swarm-optimization/
+
+
