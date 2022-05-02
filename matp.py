@@ -65,8 +65,6 @@ def animate(i):
     p_arrow.set_UVC(V[0], V[1])
     gbest_plot.set_offsets(gbest.reshape(1,-1))
     return ax, pbest_plot, p_plot, p_arrow, gbest_plot
-plt.connect('motion_notify_event', mouse_move)
-
 anim = FuncAnimation(fig, animate, frames=list(range(1,50)), interval=22, blit=True, repeat=True)
 plt.show()
 
